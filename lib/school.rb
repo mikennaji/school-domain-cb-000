@@ -9,7 +9,8 @@ def initialize(school)
 end
 
 def add_student(student,grade)
-  @roster[grade] = [student]
+  array = []
+  @roster[grade] = array<< student
 
 end
 
