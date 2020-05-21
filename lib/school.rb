@@ -10,7 +10,8 @@ end
 
 def add_student(student,grade)
   array = []
-  @roster[grade] = array<< student
+  @roster[grade].push(student)
+  
 
 end
 
