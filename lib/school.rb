@@ -10,7 +10,7 @@ end
 
 def add_student(student,grade)
   @roster[grade] = [grade]
-  
+
 end
 
 
