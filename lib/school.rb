@@ -11,7 +11,7 @@ end
 def add_student(student,grade)
   array = []
   @roster[grade].push(student)
-  
+
 
 end
 
