@@ -9,7 +9,7 @@ def initialize(school)
 end
 
 def add_student(student,grade)
-  @roster[grade] = [student,student]
+  @roster[grade] = [student]
 
 
 end
