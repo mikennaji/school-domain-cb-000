@@ -1,7 +1,8 @@
 # code here!
 class School
 
-attr_accesscor :roster
+attr_accessor :roster
+
 def initialize(school)
   @school = school
   @roster =[]
